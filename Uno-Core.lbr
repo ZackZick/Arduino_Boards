@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,66 +58,66 @@
 <library>
 <packages>
 <package name="CORE-UNO">
-<pad name="1" x="0" y="0" drill="1.1" diameter="1.9304" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.1" diameter="1.9304"/>
-<pad name="3" x="0" y="-2.54" drill="1.1" diameter="1.9304"/>
-<pad name="4" x="2.54" y="-2.54" drill="1.1" diameter="1.9304"/>
-<pad name="5" x="0" y="-5.08" drill="1.1" diameter="1.9304"/>
-<pad name="6" x="2.54" y="-5.08" drill="1.1" diameter="1.9304"/>
-<pad name="7" x="0" y="-7.62" drill="1.1" diameter="1.9304"/>
-<pad name="8" x="2.54" y="-7.62" drill="1.1" diameter="1.9304"/>
-<pad name="9" x="0" y="-10.16" drill="1.1" diameter="1.9304"/>
-<pad name="10" x="2.54" y="-10.16" drill="1.1" diameter="1.9304"/>
-<pad name="11" x="0" y="-12.7" drill="1.1" diameter="1.9304"/>
-<pad name="12" x="2.54" y="-12.7" drill="1.1" diameter="1.9304"/>
-<pad name="13" x="0" y="-15.24" drill="1.1" diameter="1.9304"/>
-<pad name="14" x="2.54" y="-15.24" drill="1.1" diameter="1.9304"/>
-<pad name="15" x="0" y="-17.78" drill="1.1" diameter="1.9304"/>
-<pad name="16" x="2.54" y="-17.78" drill="1.1" diameter="1.9304"/>
-<pad name="17" x="0" y="-20.32" drill="1.1" diameter="1.9304"/>
-<pad name="18" x="2.54" y="-20.32" drill="1.1" diameter="1.9304"/>
-<pad name="19" x="0" y="-22.86" drill="1.1" diameter="1.9304"/>
-<pad name="20" x="2.54" y="-22.86" drill="1.1" diameter="1.9304"/>
-<pad name="21" x="0" y="-25.4" drill="1.1" diameter="1.9304"/>
-<pad name="22" x="2.54" y="-25.4" drill="1.1" diameter="1.9304"/>
-<pad name="23" x="0" y="-27.94" drill="1.1" diameter="1.9304"/>
-<pad name="24" x="2.54" y="-27.94" drill="1.1" diameter="1.9304"/>
-<pad name="25" x="0" y="-30.48" drill="1.1" diameter="1.9304"/>
-<pad name="26" x="2.54" y="-30.48" drill="1.1" diameter="1.9304"/>
-<pad name="27" x="0" y="-33.02" drill="1.1" diameter="1.9304"/>
-<pad name="28" x="2.54" y="-33.02" drill="1.1" diameter="1.9304"/>
+<pad name="2" x="0" y="0" drill="1.1" diameter="1.9304"/>
+<pad name="1" x="2.54" y="0" drill="1.1" diameter="1.9304" shape="square"/>
+<pad name="4" x="0" y="-2.54" drill="1.1" diameter="1.9304"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.1" diameter="1.9304"/>
+<pad name="6" x="0" y="-5.08" drill="1.1" diameter="1.9304"/>
+<pad name="5" x="2.54" y="-5.08" drill="1.1" diameter="1.9304"/>
+<pad name="8" x="0" y="-7.62" drill="1.1" diameter="1.9304"/>
+<pad name="7" x="2.54" y="-7.62" drill="1.1" diameter="1.9304"/>
+<pad name="10" x="0" y="-10.16" drill="1.1" diameter="1.9304"/>
+<pad name="9" x="2.54" y="-10.16" drill="1.1" diameter="1.9304"/>
+<pad name="12" x="0" y="-12.7" drill="1.1" diameter="1.9304"/>
+<pad name="11" x="2.54" y="-12.7" drill="1.1" diameter="1.9304"/>
+<pad name="14" x="0" y="-15.24" drill="1.1" diameter="1.9304"/>
+<pad name="13" x="2.54" y="-15.24" drill="1.1" diameter="1.9304"/>
+<pad name="16" x="0" y="-17.78" drill="1.1" diameter="1.9304"/>
+<pad name="15" x="2.54" y="-17.78" drill="1.1" diameter="1.9304"/>
+<pad name="18" x="0" y="-20.32" drill="1.1" diameter="1.9304"/>
+<pad name="17" x="2.54" y="-20.32" drill="1.1" diameter="1.9304"/>
+<pad name="20" x="0" y="-22.86" drill="1.1" diameter="1.9304"/>
+<pad name="19" x="2.54" y="-22.86" drill="1.1" diameter="1.9304"/>
+<pad name="22" x="0" y="-25.4" drill="1.1" diameter="1.9304"/>
+<pad name="21" x="2.54" y="-25.4" drill="1.1" diameter="1.9304"/>
+<pad name="24" x="0" y="-27.94" drill="1.1" diameter="1.9304"/>
+<pad name="23" x="2.54" y="-27.94" drill="1.1" diameter="1.9304"/>
+<pad name="26" x="0" y="-30.48" drill="1.1" diameter="1.9304"/>
+<pad name="25" x="2.54" y="-30.48" drill="1.1" diameter="1.9304"/>
+<pad name="28" x="0" y="-33.02" drill="1.1" diameter="1.9304"/>
+<pad name="27" x="2.54" y="-33.02" drill="1.1" diameter="1.9304"/>
 </package>
 <package name="CORE-UNO-SYMBOLS">
 </package>
 <package name="CORE-UNO-SYM2">
-<pad name="1" x="0" y="0" drill="1" diameter="1.9304" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="1.9304"/>
-<pad name="3" x="0" y="-2.54" drill="1" diameter="1.9304"/>
-<pad name="4" x="2.54" y="-2.54" drill="1" diameter="1.9304"/>
-<pad name="5" x="0" y="-5.08" drill="1" diameter="1.9304"/>
-<pad name="6" x="2.54" y="-5.08" drill="1" diameter="1.9304"/>
-<pad name="7" x="0" y="-7.62" drill="1" diameter="1.9304"/>
-<pad name="8" x="2.54" y="-7.62" drill="1" diameter="1.9304"/>
-<pad name="9" x="0" y="-10.16" drill="1" diameter="1.9304"/>
-<pad name="10" x="2.54" y="-10.16" drill="1" diameter="1.9304"/>
-<pad name="11" x="0" y="-12.7" drill="1" diameter="1.9304"/>
-<pad name="12" x="2.54" y="-12.7" drill="1" diameter="1.9304"/>
-<pad name="13" x="0" y="-15.24" drill="1" diameter="1.9304"/>
-<pad name="14" x="2.54" y="-15.24" drill="1" diameter="1.9304"/>
-<pad name="15" x="0" y="-17.78" drill="1" diameter="1.9304"/>
-<pad name="16" x="2.54" y="-17.78" drill="1" diameter="1.9304"/>
-<pad name="17" x="0" y="-20.32" drill="1" diameter="1.9304"/>
-<pad name="18" x="2.54" y="-20.32" drill="1" diameter="1.9304"/>
-<pad name="19" x="0" y="-22.86" drill="1" diameter="1.9304"/>
-<pad name="20" x="2.54" y="-22.86" drill="1" diameter="1.9304"/>
-<pad name="21" x="0" y="-25.4" drill="1" diameter="1.9304"/>
-<pad name="22" x="2.54" y="-25.4" drill="1" diameter="1.9304"/>
-<pad name="23" x="0" y="-27.94" drill="1" diameter="1.9304"/>
-<pad name="24" x="2.54" y="-27.94" drill="1" diameter="1.9304"/>
-<pad name="25" x="0" y="-30.48" drill="1" diameter="1.9304"/>
-<pad name="26" x="2.54" y="-30.48" drill="1" diameter="1.9304"/>
-<pad name="27" x="0" y="-33.02" drill="1" diameter="1.9304"/>
-<pad name="28" x="2.54" y="-33.02" drill="1" diameter="1.9304"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.9304"/>
+<pad name="1" x="2.54" y="0" drill="1" diameter="1.9304" shape="square"/>
+<pad name="4" x="0" y="-2.54" drill="1" diameter="1.9304"/>
+<pad name="3" x="2.54" y="-2.54" drill="1" diameter="1.9304"/>
+<pad name="6" x="0" y="-5.08" drill="1" diameter="1.9304"/>
+<pad name="5" x="2.54" y="-5.08" drill="1" diameter="1.9304"/>
+<pad name="8" x="0" y="-7.62" drill="1" diameter="1.9304"/>
+<pad name="7" x="2.54" y="-7.62" drill="1" diameter="1.9304"/>
+<pad name="10" x="0" y="-10.16" drill="1" diameter="1.9304"/>
+<pad name="9" x="2.54" y="-10.16" drill="1" diameter="1.9304"/>
+<pad name="12" x="0" y="-12.7" drill="1" diameter="1.9304"/>
+<pad name="11" x="2.54" y="-12.7" drill="1" diameter="1.9304"/>
+<pad name="14" x="0" y="-15.24" drill="1" diameter="1.9304"/>
+<pad name="13" x="2.54" y="-15.24" drill="1" diameter="1.9304"/>
+<pad name="16" x="0" y="-17.78" drill="1" diameter="1.9304"/>
+<pad name="15" x="2.54" y="-17.78" drill="1" diameter="1.9304"/>
+<pad name="18" x="0" y="-20.32" drill="1" diameter="1.9304"/>
+<pad name="17" x="2.54" y="-20.32" drill="1" diameter="1.9304"/>
+<pad name="20" x="0" y="-22.86" drill="1" diameter="1.9304"/>
+<pad name="19" x="2.54" y="-22.86" drill="1" diameter="1.9304"/>
+<pad name="22" x="0" y="-25.4" drill="1" diameter="1.9304"/>
+<pad name="21" x="2.54" y="-25.4" drill="1" diameter="1.9304"/>
+<pad name="24" x="0" y="-27.94" drill="1" diameter="1.9304"/>
+<pad name="23" x="2.54" y="-27.94" drill="1" diameter="1.9304"/>
+<pad name="26" x="0" y="-30.48" drill="1" diameter="1.9304"/>
+<pad name="25" x="2.54" y="-30.48" drill="1" diameter="1.9304"/>
+<pad name="28" x="0" y="-33.02" drill="1" diameter="1.9304"/>
+<pad name="27" x="2.54" y="-33.02" drill="1" diameter="1.9304"/>
 <text x="-3.81" y="0.635" size="0.8128" layer="21" rot="R270">IO6</text>
 <text x="-2.54" y="-1.905" size="0.8128" layer="21" rot="R270">IO8</text>
 <text x="5.715" y="0" size="0.8128" layer="21" rot="R270">IO5</text>
